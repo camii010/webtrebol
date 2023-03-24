@@ -1,0 +1,191 @@
+.contac {
+ 
+    display: flex;
+    height: 913px;
+    width: 100%;
+    padding: 70px;
+    z-index: 2;
+}
+
+.redes {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #618eca93;
+    height: 600px;
+    width: 115%;
+}
+
+.espa {
+   height: 9%;
+   width: 8%;
+   
+}
+
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding:0px 70px ;
+    
+}
+
+form h1{
+    font-size: 65px;
+}
+
+form p{
+    color:#1E2948 ;   
+}
+
+
+.borde {
+    border:2px solid white ;
+    height: 90%;
+    width: 90%;
+    z-index: 2;
+    padding: 30px 40px;
+    
+}
+
+form button {
+   width: 100px;
+   height: 50px;
+   font-size: 20px;
+}
+
+#nombre {
+    height:5% ;
+    width: 50%;
+    color: black;
+    z-index: 2; 
+    border:2px solid #618eca ; 
+
+}
+
+#numero {
+    height:5% ;
+    width: 50%;
+    color: black;
+    z-index: 2;  
+    border:2px solid #618eca ;
+ 
+
+}
+
+#email{
+    height:5% ;
+    width: 50%; 
+    color: black; 
+    z-index: 2;
+    border:2px solid #618eca ; 
+
+
+}
+
+#msj{
+    height:32% ;
+    width: 100%;
+    color: black;
+    z-index: 2; 
+    border:2px solid #618eca ;
+   
+
+}
+
+#hero1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    text-align: center;
+}
+.redes h1{
+     color:#1E2948 ;
+}
+.redes  img {
+ height: 50px;
+ width: 50px;
+ padding: 5px;
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+.redes a {
+    font-size: 23px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#1E2948 ;    
+}
+
+.redes a:hover {
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+
+
+
+@media (max-width: 720px) {
+
+    .contac {
+ 
+        display: flex;
+        flex-direction: column;
+        height: 913px;
+        width: 100%;
+        padding: 10px;
+        z-index: 2;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding:0px 70px ;
+        
+    }
+    
+    form h1{
+        font-size: 65px;
+    }
+    
+    form p{
+        color:#1E2948 ;   
+    }
+
+    .redes {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #618eca93;
+        height: 400px;
+        width: 100%;
+    
+    }
+
+    #peque {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 80px;
+    }
+
+    .redes h1{
+        color:#1E2948 ;
+        padding: 0px;
+        margin: none;
+   }
+
+   .salte {
+    width: 10px;
+    height: 10px;
+   }
+}

@@ -1,0 +1,307 @@
+/*Azul oscuro: 1E2948
+Azul: 3969B1
+Azul claro: 618ECA */
+
+h1 {
+  font-size: 2em;
+  padding: 10px;
+  z-index: 2;
+  color: #1E2948;
+}
+
+h3 {
+  font-size: 1.6em;
+  padding: 6px;
+  margin-top: auto;
+  z-index: 2;
+  
+}
+
+h2{
+  color: #3969B1;
+}
+
+p {
+  font-size: 1.5em;
+  z-index: 2;
+
+}
+#hero h1 {
+  color: #fff;
+  border-radius:20px ;
+   
+}
+
+header {
+  background-color: #bab5b580;
+  position: relative;
+  z-index: 2;
+
+}
+
+.container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+header .logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: #1ea86fd4;
+  font-size: 1.6em;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #3969B1;
+}
+
+header a:hover {
+  color: #f9f9fabe;
+}
+
+.despla {
+  color: #040303;
+  height: 370px;
+}
+.despla1 {
+  color: #040303;
+  height: 200px;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: #040303;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 2;
+}
+
+button:hover {
+  background-color: #f9f9fa8d;
+  z-index: 2;
+}
+
+
+#hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+
+button {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+  color:#3969B1;
+  background-color: #1E2948;
+  z-index: 2;
+}
+
+
+#servicios {
+  color: rgb(8, 1, 1);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container1 {
+ 
+ 
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container0 {
+ 
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+#servicios h3 {
+  color: #1E2948;
+  background-color: #ffffff6e;
+  border-radius: 10px;
+  
+}
+
+#servicios .carta {
+  background-position: center center;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  z-index: 1;
+}
+
+h5 {
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  color:   #1E2948;
+  z-index: 2;
+}
+
+.carta:first-child {
+  background-image: url(/static/img-video/tienda\ online.jpg);
+}
+
+.carta:nth-child(2) {
+  background-image: url(/static/img-video/marketin\ online.jpg);
+}
+
+.carta:nth-child(3) {
+  background-image: url(/static/img-video/sitio\ web.jpg);
+}
+
+
+.info a {
+  text-decoration: none;
+  color: white;
+}
+
+.info h2 {
+  font-size: 3em;
+}
+
+.info p {
+  font-size: 2em;
+}
+
+.info h1 {
+  font-size: 0.9em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container1 {
+  position: relative;
+  gap: 12px;
+  max-width: 1500px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 100px;
+}
+
+
+.card1 .image {
+  height: 170px;
+  width: 170px;
+  padding: 4px;
+  background: #618ECA ;
+  border-radius: 50%;
+}
+
+.image img {
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.espacio {
+  width: 100%;
+  height: 50px;
+}
+
+.parra {
+  background-color: #1e29481f;
+  width: 100%;
+  padding: 50px 25px;
+  color:#3969B1 ;
+}
+
+.parra h2 {
+  padding: 5px;
+  text-align: center;
+}
+
+.parra p {
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+@media (min-width: 720px) {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+
+  #servicios .programas {
+    display: flex;
+    justify-content: center;
+  }
+
+  #servicios .carta {
+    padding: 50px;
+  }
+
+  .container1 {
+    
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 70px 200px;
+  }
+
+  .parra {
+    background-color: #1e29481f;
+    width: 30%;
+    padding: 5px 5px;
+  }
+  
+  .parra h2 {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .parra p {
+    padding: 5px;
+    text-align: center;
+  }
+}
